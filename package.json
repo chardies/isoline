@@ -26,3 +26,16 @@
     "not op_mini all"
   ]
 }
+{
+  "name": "jv",
+  "version": "0.1.0",
+  "private": true,
+"homepage": "https://chardies.github.io/isoline",
+...
+}
+{
+  ...
+  "predeploy": "yarn run build",
+  "deploy": "gh-pages -d build",
+  ...
+}
