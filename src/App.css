@@ -1,0 +1,31 @@
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.controls {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.map-grid {
+  height: 100%;
+  width: 100vw;
+  display: grid;
+  grid: repeat(1, 1fr) / repeat(1, 1fr);
+  position: relative;
+  grid-gap: 3px;
+}
+
+.map {
+  border: 3px solid white;
+}
+
+label {
+  display: block;
+}
