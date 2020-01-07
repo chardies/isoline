@@ -17,12 +17,12 @@ class App extends React.Component {
            }
         ],
         options: {
-           zoom: 12,
+           zoom: 13.5,
            type: 'distance',
-           range: 7000,
+           range: 5000,
            mode: 'car',
            traffic: 'disabled',
-           style: 'reduced.day'
+           style: 'normal.day'
         }
      };
   }
